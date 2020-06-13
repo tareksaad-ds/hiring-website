@@ -1,0 +1,524 @@
+
+body {
+ overflow-x: hidden;
+ font-family: 'Ubuntu', sans-serif;
+ color: #505962;
+}
+.offset::before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+/* navigation */ 
+.navbar {
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background: rgba(0, 0, 0, 0.6) !important;
+
+}
+.navbar-brand img {
+  height: auto;
+  width: 200px;
+}
+.navbar-nav li{
+  padding-right: 0.7rem ;
+
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1CDCAB;
+} 
+
+/* LANDING PAGE */ 
+.home-inner {
+  background-image: url(img/BG-Hero.jpg);
+ 
+}
+.caption {
+  width: 600px;
+  max-width: 600px;
+  position: absolute;
+  top:15%;
+  z-index: 1;
+  color: white;
+
+}
+.caption h1 {
+  font-size: 50px;
+  font-weight: 400;
+  font-family: 'Ubuntu',sans-serif;
+  letter-spacing: 3px;
+  padding-left: 30px ;
+  padding-bottom: 20px; 
+
+  
+}
+
+.caption h4 {
+  font-size: 22px;
+  font-family: 'Ubuntu',sans-serif;
+  letter-spacing: 0.3rem;
+  padding-left: 30px;
+  padding-bottom: 1.6rem;
+}
+.btn-lg {
+  border-width: thin;
+  border-radius: 5%;
+  font-family: 'Ubuntu',sans-serif;
+  margin-left: 150px;
+  font-size: 15px;
+  padding: 8px 40px 8px 40px ;
+  margin-right: 15px ; 
+}
+.btn-lg:hover {
+   border-width: thin;
+   border-radius: 5%;
+   color:#1CDCAB ;
+   font-family: 'Ubuntu',sans-serif;
+   margin-left: 150px;
+   font-size: 15px;
+   padding: 8px 40px 8px 40px ;
+   margin-right: 15px ; 
+ }
+.btn-secondary {
+   background-color: #1CDCAB;
+   color: white;
+   border-width: thin;
+   border-color:  #1CDCAB;
+   padding-left: 20px;
+   padding-right: 20px;
+
+
+}
+.btn-secondary:hover {
+   background-color: transparent ;
+   color:#1CDCAB ;
+   border-width: thin #1CDCAB;
+
+}
+
+h3.heading {
+  font-size: 1.9rem ;
+  font-weight: 700;
+  margin-bottom: 1.9rem;
+}
+img.lazy-loaded {
+   width: 230px;
+   height: 200px;
+}
+img.lazy-loadedd {
+   width: 230px;
+   height: 200px;
+}
+img.lazy-loadeddd {
+   width: 224px;
+   height: 200px;
+}
+
+.services h3 {
+    font-size: 1.3rem;
+  
+    padding-bottom: 0.4rem;
+}
+.services p {
+  font-size: 1.1rem;
+}
+
+.media img {
+   width: 80px;
+   height: 80px;
+}
+
+#jumbotron {
+   background-image: url(img/bg.png);
+   padding: 50px 180px 50px 180px;
+}
+#jumbotron h2 {
+   color: black;
+   font-weight: bold;
+
+
+}
+#jumbotron p {
+   
+   font-weight: bold;
+   margin-top: 30px;
+   font-weight: inherit ;
+
+}
+
+img.col-lg-6 {
+   max-width: 100%;
+   max-height: 100%;
+   padding:50px 30px ;
+}
+footer {
+   background-color: #202121;
+   color: white;
+
+}
+.padding img {
+   width: 200px;
+   height: auto;
+   color: white;
+}
+.container-fluied {
+   padding-top: 80px;
+
+}
+.container-fluied  h3 {
+   color: black;
+   font-weight: 100;
+   font-size: 24px;
+   letter-spacing: 1px;
+   
+}
+#services .services {
+   background-color:#FBFBFB;
+   height: 500px;
+}
+#services .services h6 {
+  font-size: 18px;
+  color: black;
+  font-weight: 200;
+  padding: 40px 10px 20px 10px;
+  
+}
+#services .services p {
+   font-size: 15px;
+   font-weight: 200;
+   padding-bottom: 10px;
+   
+
+
+}
+.btn-md {
+   padding: 12px 35px 12px 35px;
+   border-radius: 7%;
+   margin: 10px 0 50px 0;
+   
+}
+
+.btn-md:hover{
+   background-color:white;
+   color: #1CDCAB;
+   border-width: thin;
+   border-color:  #1CDCAB;
+}
+.media {
+   box-shadow: 0px 2px 30px 0px rgb(208, 208, 208, 0.35);
+   margin-bottom: 15px;
+}
+.media img {
+   width: 80px;
+   height: 80px;
+   margin-bottom: 50px;
+   margin-left: 10px;
+   margin-top: 20px;
+}
+.media h5 {
+   font-size: 18px;
+   font-weight: bold;
+   color: #828282;
+   padding-top: 20px;
+}
+strong {
+   color: #FDD835;
+   padding-right: 15px;
+   font-size: 40px;
+}
+.col-lg-6 h1 {
+   color: black;
+   letter-spacing: 1px;
+   font-weight: inherit;
+   font-size: 40px;
+   font-style: inherit;
+   padding-left: 30px;
+
+}
+.col-lg-6 p {
+   padding-left: 30px;
+   font-size: 22px;
+   color: #828282;
+}
+/* Facebook */
+.fa-facebook {
+   background-color: white;
+   border-radius: 50%;
+   color: black;
+   width: 42px;
+   height: 42px;
+   margin-right: 20px;
+   padding-top:15px;
+}
+ 
+ /* Twitter */
+ .fa-linkedin-square {
+   background-color: white;
+   border-radius: 50%;
+   color: black;
+   width: 42px;
+   height: 42px;
+   padding-top:15px;
+ }
+ .fa-linkedin-square:hover {
+   background-color:#1CDCAB ;
+   color: white;
+
+ }
+ .fa-facebook:hover {
+    background-color: #1CDCAB ;
+    color: white;
+
+ }
+.container-fixed {
+   height: 860px;
+}
+.timeline h6 {
+   color: black;
+   text-align: left;
+   font-weight: lighter;
+}
+
+.no-edit {
+   width: 57px;
+   height: 53px;
+   opacity: 0.6;
+   font-size: 45px;
+   letter-spacing: 3px;
+   color: #929292;
+   margin-right: 30px;
+}
+.p1 {
+   padding-left:80px ;
+}
+.p2 {
+   padding-left:40px;
+}
+.p3 {
+   padding-left:70px;
+}  
+.p4 {
+   padding-left:80px;
+}
+.p5 {
+   padding-left:73px;
+}
+.developer h1 {
+   color:#1CDCAB;
+   margin-top: 250px;
+}
+.developer h6 {
+   color: white;
+   margin-top: 30px;
+   font-size: 20px;
+   font-weight: 300;
+   text-align: justify;
+   margin: 0 80px 0 80px ;
+}
+.form {
+   max-width: 800px;
+   height: 1300px;
+   margin-left: 220px;
+   margin-right: 220px;
+   background-color: white;
+   border-radius: 1%;
+   margin-top: 60px;
+   margin-bottom: 150px;
+}
+.form h6 {
+   color: #3A3A3A;
+   padding-top:50px ;
+   margin-left:30px ;
+   font-weight: 900;
+   font-size: 16px;
+}
+
+#dev {
+   background-image: url(img/BG-Hero.jpg);
+
+}
+.checky {
+   float: left;
+   width: 33.33%;
+   padding-top: 20px;
+   color: rgba(0, 0, 0, 0.6);
+   font-size: 14px;
+   font-style: normal;
+}
+
+ 
+ /* Clear floats after the columns */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+#star {
+   color: red;
+}
+#ftcl {
+   margin-left: 30px;
+   width: 25.33%;
+}
+#frcl {
+   margin-left: 30px;
+}
+
+.rady {
+   float: left;
+   width: 22%;
+   color: rgba(0, 0, 0, 0.6);
+   font-size: 15px;
+   font-style: normal;
+   padding-top: 20px;
+
+}
+.question {
+   margin-left: 30px;
+   margin-top: 10px;
+   color: rgba(0, 0, 0, 0.6);
+   font-size: 15px;
+   font-style: normal;
+   
+   
+}
+.boxes {
+   margin-left: 10px;
+   padding: 20px;
+   color: rgba(0, 0, 0, 0.6);
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 100;
+}
+.refer{
+   width: 600px;
+   margin: 5px 40px 5px 30px;
+   
+   
+}
+.refer option {
+   padding: 10px;
+   font-size: 18px;
+   
+}
+.refer select:focus {
+   padding: 10px;
+   font-size: 18px;
+   border-width: medium;
+   border-color: #1CDCAB ;
+   
+}
+.refer select:hover {
+   padding: 10px;
+   font-size: 18px;
+   border-width: medium;
+   border-color: #1CDCAB ;
+   
+}
+.lbl {
+   padding: 8px 8px 0 0;
+}
+.btndev {
+   margin-left: 40px;
+   margin-top: 20px;
+}
+
+.sel {
+   width: 600px;
+   margin-left: 30px;
+   background-color: white;
+   padding: 7px 7px;
+   border-radius: 2%;
+   border-width: 2px;
+   border-color: #D8D8D8;
+   opacity: 80%;
+}
+.sel:focus {
+   width: 600px;
+   margin-left: 30px;
+   background-color: white;
+   padding: 7px 7px;
+   border-radius: 2%;
+   border-width: 2px;
+   outline: 2px solid #1CDCAB;
+}
+.referb{
+   width: 300px;
+   margin: 5px 40px 5px 30px;
+   
+   
+}
+.referb option {
+   padding: 10px;
+   font-size: 18px;
+   
+}
+.referb select:focus {
+   padding: 10px;
+   font-size: 18px;
+   border-width: medium;
+   border-color: #1CDCAB ;
+   
+}
+.referb select:hover {
+   padding: 10px;
+   font-size: 18px;
+   border-width: medium;
+   border-color: #1CDCAB ;
+   
+}
+.kady {
+   float: left;
+   width: 30%;
+   color: rgba(0, 0, 0, 0.6);
+   font-size: 15px;
+   font-style: normal;
+   padding-top: 20px;
+
+}
+.formy {
+   max-width: 700px;
+   height: 1800px;
+   margin-left: 220px;
+   margin-right: 220px;
+   background-color: white;
+   border-radius: 1%;
+   margin-top: 60px;
+   margin-bottom: 150px;
+}
+.formy h6 {
+   color: #3A3A3A;
+   padding-top:50px ;
+   margin-left:30px ;
+   font-weight: 900;
+   font-size: 16px;
+}
+.oneseat {
+   margin-left: 30px;
+}
+.textarr {
+   margin-left: 30px;
+}
+.textarr:focus {
+   margin-left: 30px;
+   outline: 2px solid #1CDCAB;
+}
+.save {
+   color: #1CDCAB;
+   vertical-align: bottom;
+
+}
+.save:hover {
+   color: #1CDCAB;
+   padding-top: 6px;
+   text-decoration: none;
+   vertical-align: bottom;
+}

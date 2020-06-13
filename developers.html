@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="./bootstrap-4.1.3-dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="css/fixed.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <title>Talents Arena</title>
+</head>
+
+<body id="dev" data-spy="scroll" data-target="#navbarResponsive">
+   <!---Start Home Section-->
+   <div id="home">
+      <!-- Start Navigation -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+         <a class="navbar-brand" href="#"> <img src="img/Logo-Final-04-cropped.png"> </a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="developers.html">Developers</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="employers.html">Employers</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#blog">Blog</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#footer">Contact Us</a>
+               </li>
+
+            </ul>
+         </div>
+      </nav>
+      <!-- End Navigation -->
+      <!--BODYYYY-->
+      <!-- <div class="landing">
+         <div class="home-wrap"> -->
+      <div class="">
+         <!--START HEADING-->
+         <div class="header developer">
+            <h1 style="text-align: center;">Get Matched with a Job you Aspire for!</h1>
+            <h6 style="text-align: center;">Build your profile by filling the form and uploading your CV. Then get
+               matched with the job you have always been looking for.</h6>
+
+            <div class="form">
+               <form action="/action_page.php" method="get">
+                  <h6>You are more into :<span id="star">*</span></h6>
+
+                  <div class="row">
+                     <div id="ftcl" class="column checky">
+                        <input type="checkbox" class="z" value="Backend Development">
+                        <label for="vehicle1"> Backend.D</label><br>
+                        <input type="checkbox" class="z" value=" DevOps">
+                        <label for="vehicle2"> DevOps</label><br>
+                        <input type="checkbox" class="z" value="Agile Coaching">
+                        <label for="vehicle3">Agile Coaching</label><br>
+                        <input type="checkbox" class="z" value="Data Science">
+                        <label for="vehicle3">Data Science</label><br><br>
+                     </div>
+                     <div class="column checky">
+                        <input type="checkbox" class="z" name="vehicle1" value="Frontend.D">
+                        <label for="vehicle1">Frontend.D</label><br>
+                        <input type="checkbox" class="z" name="vehicle2" value="Team Leadership">
+                        <label for="vehicle2"> Team Leadership</label><br>
+                        <input type="checkbox" class="z" name="vehicle3" value="Hi-Tech / R&D">
+                        <label for="vehicle3">Hi-Tech / R&D</label><br>
+                        <input type="checkbox" class="z" name="vehicle3" value="Embedded Development">
+                        <label for="vehicle3">Embedded Development</label><br><br>
+                     </div>
+                     <div class="column checky">
+                        <input type="checkbox" class="z" name="vehicle1" value="Testing">
+                        <label for="vehicle1">Testing</label><br>
+                        <input type="checkbox" class="z" name="vehicle2" value="Mobile Development">
+                        <label for="vehicle2">Mobile Development</label><br>
+
+                        <input type="checkbox" class="z" name="vehicle3" value="Machine Learning and AI">
+                        <label for="vehicle3">Machine Learning and AI</label><br><br>
+
+                     </div>
+
+                  </div>
+
+                  <h6>You consider yourself :<span id="star">*</span></h6>
+                  <div class="row">
+                     <div id="frcl" class="column rady">
+                        <input type="radio" id="Intern" name="level" value="Intern">
+                        <label for="male">Intern</label><br>
+                        <input type="radio" id="Staff Engineer" name="level" value="Staff Engineer">
+                        <label for="female">Staff Engineer</label><br>
+                        <input type="radio" id="other" name="level" value="other">
+                        <label for="other">Other</label>
+
+                     </div>
+                     <div class="column rady">
+                        <input type="radio" id="male" name="level" value="male">
+                        <label for="male">Junior</label><br>
+                        <input type="radio" id="female" name="level" value="female">
+                        <label for="female">Architect</label><br>
+
+
+                     </div>
+                     <div class="column rady">
+                        <input type="radio" id="male" name="level" value="male">
+                        <label for="male">Mid Level</label><br>
+                        <input type="radio" id="female" name="level" value="female">
+                        <label for="female">C-Level</label><br>
+
+
+
+                     </div>
+                     <div class="column rady">
+                        <input type="radio" id="male" name="level" value="male">
+                        <label for="male">Senior</label><br>
+                        <input type="radio" id="female" name="level" value="female">
+                        <label for="female">Consultant</label><br>
+
+                     </div>
+
+                  </div>
+                  <h6>How many years of Experience do you have?<span id="star">*</span></h6>
+                  <div class="row">
+                     <div id="frcl" class="column rady">
+                        <input type="radio" id="9" name="experiences" value="Intern">
+                        <label for="male">Undergraduate</label><br>
+                        <input type="radio" id="8" name="experiences" value="Staff Engineer">
+                        <label for="female">8-10</label><br>
+
+
+                     </div>
+                     <div class="column rady">
+                        <input type="radio" id="6" name="experiences" value="male">
+                        <label for="male">6m - 1yr</label><br>
+                        <input type="radio" id="5" name="experiences" value="female">
+                        <label for="female">11+</label><br>
+
+
+                     </div>
+                     <div class="column rady">
+                        <input type="radio" id="4" name="experiences" value="male">
+                        <label for="male">2-4</label><br>
+
+
+
+
+                     </div>
+                     <div class="column rady">
+                        <input type="radio" id="1" name="experiences" value="male">
+                        <label for="male">4-7</label><br>
+
+
+                     </div>
+
+                  </div>
+                  <h6>Do you want job offers in different countries? (Are you willing to relocate?)
+                     <span id="star">*</span>
+                  </h6>
+                  <div class="question">
+                     <input type="radio" id="1" name="offers" value="male">
+                     <label for="male">Yes</label>
+                     <input type="radio" id="1" name="offers" value="male">
+                     <label for="male">No</label>
+                     <input type="radio" id="1" name="offers" value="male">
+                     <label for="male">Maybe</label>
+                  </div>
+                  <h6>Do you need a 1:1 technical assessment in your area of expertise?<span id="star">*</span>
+                  </h6>
+                  <div class="question">
+                     <input type="radio" id="1" name="tech" value="male">
+                     <label for="male">Yes</label>
+                     <input type="radio" id="1" name="tech" value="male">
+                     <label for="male">No</label>
+                     <input type="radio" id="1" name="tech" value="male">
+                     <label for="male">Maybe</label>
+                  </div>
+                  <h6>Your Favorite Stack: <span id="star">*</span>
+                  </h6>
+                  <div class="boxes">
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">HTML/CSS3</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">NodeJs</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">MongoDB</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">MySQL</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">PostgreSQL</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">Python</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">PHP</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">.NET</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">Java</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">C/C++</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">Ruby on Rails</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">Unity</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">R</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">JavaScript</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">AngularJs</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">Angular </label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">TypeScript</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">ReactJs</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">VueJs</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1"> React Native</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1"> Kotlin</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">Flutter</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">Xamarin</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">Ionic</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">PhoneGap</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">IOS Objective C</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">IOS Swift</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">Android</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">Docker</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">Electron</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">Rust</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">Scala</label>
+                     <input class="inp" type="checkbox" value="Backend Development">
+                     <label class="lbl" for="vehicle1">Go</label>
+
+                  </div>
+                  <div class="selector">
+                     <h6>How did you hear about us? <span id="star">*</span>
+                     </h6>
+                     <select class="refer form-control" id="cars" form="carform">
+                        <option value="volvo">Refered by</option>
+                        <option value="saab">Facebook</option>
+                        <option value="opel">Youtube</option>
+                        <option value="audi">LinkerIn</option>
+                        <option value="volvo">NTL</option>
+                        <option value="saab">NTI</option>
+                        <option value="opel">AAL</option>
+                        <option value="audi">Other</option>
+                     </select>
+                  </div>
+
+
+                  <a class="btn btn-secondary btndev" type="submit" href="#" target="_blank">Submit</a>
+
+
+
+
+
+
+               </form>
+            </div>
+
+         </div>
+         <!-- END HEADING-->
+         <!--START FORM-->
+         <div>
+
+         </div>
+         <!-- END FORM-->
+
+      </div>
+   </div>
+   <!-- </div>
+   </div> -->
+   <!-- Footer -->
+   <footer id="footer">
+      <div class="container-fluid padding">
+         <div class="row text-center">
+            <div class="col-md-4">
+               <img src="img/Logo-Final-01-cropped.png">
+               <h5>&copy;Talents Arena</h5>
+
+            </div>
+            <div class="col-md-4">
+               <a href="https://www.facebook.com/thetalentsarena" <i class="fa fa-facebook" aria-hidden="true"></i>
+               </a>
+               <a href="https://www.linkedin.com/company/talents-arena" <i class="fa fa-linkedin-square"
+                  aria-hidden="true"></i>
+               </a>
+
+
+            </div>
+            <div class="col-md-4">
+
+               <p><i class="fa fa-envelope-o" aria-hidden="true"></i>&emsp;info@talentsarena.net</p>
+               <br>
+               <p><i class="fa fa-map-marker" aria-hidden="true"></i>&emsp;Smart Village, Cairo-Alex Desert Road,
+                  Egypt.
+               </p>
+
+
+            </div>
+
+         </div>
+      </div>
+   </footer>
+
+
+
+
+
+
+
+
+
+
+
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="./js/jquery-3.3.1.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+   <script src="./bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
